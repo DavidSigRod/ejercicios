@@ -1,0 +1,53 @@
+.box {
+    width: 99px;
+    height: 99px;
+    display: block;
+    transition: transform 2s;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-blue{
+    background-color:  rgb(29, 23, 196);
+}
+
+.bg-green{
+    background-color:  green;
+}
+
+.bg-grey{
+    background-color: grey;
+}
+
+div.box#box1:hover{
+    transform: translate(200px,50px);
+}
+
+div.box#box2{
+    border: 2px solid black;
+    
+        
+}
+div.box#box2{
+    transform: rotateZ( 760deg );    
+}
+
+div.box#box3{
+    z-index: 1;
+}
+div.box#box3:hover{
+    transform: scale(0.4) translateZ(-1px);
+}
+
+div.box#box4:hover{
+    transform: skewX(30deg) translate(200px);
+}
+
+
+
+
+
+
+

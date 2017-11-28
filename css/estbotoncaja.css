@@ -1,0 +1,111 @@
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.cuerpo{
+    margin-top: 5%;
+    float: left;
+    width: 100%;
+}
+
+.box {
+    width: 99px;
+    height: 99px;
+    display: inline-block;
+    transition: transform 5s;
+    
+}
+
+.col-izda {
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+     width: 50%;
+}
+
+.col-izda img{
+    max-width: 50%;
+    float: left;
+    margin-left: 25%;
+}
+
+.col-dcha {
+    float: left;
+    
+    margin-bottom: 5%;
+    
+}
+
+
+.b-red {
+    background-color: red;
+    
+}
+
+.b-blue {
+    background-color: blue;
+    
+}
+
+.b-green {
+    background-color: green;
+    
+}
+
+.b-orange {
+    background-color: orange;
+    
+}
+
+div.box#box1{
+    
+}
+
+
+div.box#box2{
+    
+}
+
+
+div.box#box3:hover{
+    
+}
+
+
+div.box#box4:hover{
+    
+}
+
+div#click1:hover + div#box1{
+    transform: scale(1.5);
+}
+
+div#click2:hover + div#box2{
+    transform: rotate(75deg);
+}
+
+div#click3:hover + div#box3{
+    transform: translate( 50px, 50px );
+    }
+
+div#click4:hover + div#box4{
+    transform: skewX(25deg);
+}
+
+
+.b-grey{
+    background-color: grey;
+}
+
+.b-black{
+    background-color: black;
+}
+
+div#click5:active + div#box5{
+    transform: scale(5)
+}
+
+div#click6:active + div#box6{
+    transform: scale(5)
+}

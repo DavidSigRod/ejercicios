@@ -1,0 +1,156 @@
+/* ---------animation styles---------- */
+
+#db-bg {
+    background-image: url(../img/torneo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.saiyan {
+    width: 20%;
+}
+
+#goku {
+    position: absolute;
+    top: 110px;
+    left: 75%;
+    animation: guiongoku 16s;
+    /* bottom:?? */
+    /* right:?? */
+    
+}
+
+#vegeta {
+    position: fixed;
+    top: 200px;
+    right: 20%;
+    visibility: hidden;
+    
+    
+    animation: guionvegeta 20s;
+    }
+
+#bolazo {
+    position: fixed;
+    top: 240px;
+    right: 38%;
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    background: radial-gradient(#0000f5, #2b2bb5, #00ffff);
+    animation: lanzarBolazo 8.5s;
+    animation-timing-function: linear;
+    
+}
+
+@keyframes guiongoku {
+    
+    0% {
+        left: 8%;
+        top: 220px;
+        
+    }
+    
+    48% {
+        left: 8%;
+        top: 220px;
+        
+    }
+    
+    49% {
+        left: 78%;
+        top: 100px;
+    }
+    
+    99% {
+        left: 76%;
+        top: 105px;
+    }
+    
+    100% {
+        left: 73%;
+        top: 115px;
+        position: fixed;
+        
+    }
+}
+
+
+
+@keyframes guionvegeta {
+    
+    0% {
+        transform: rotate(0deg);
+        visibility: visible;
+        width: 20%;
+        top: 200px;
+        right: 20%;
+       
+    }
+    
+    79.5% {
+        transform: rotate(0deg);
+        top: 200px;
+        right: 20%;
+    }
+    
+    
+    80%  {
+        
+        transform: rotate(360deg);
+        top: 400px;
+        right: 40%;
+            
+    } 
+        
+    100% {
+        
+        transform: scale(0.05);
+        top: -500px;
+        right: 80%;
+        
+    }
+    
+}
+
+
+@keyframes lanzarBolazo {
+    
+    0% {
+        transform: scale(0);
+        right: 38%;
+    }
+        
+    50% {
+        transform: scale(0);
+        right: 38%;
+    }
+        
+    75% {
+        transform: scale(1);
+        width: 200px;
+        height: 200px;
+        right: 38%;
+    }
+    
+    90% {
+        transform: scale(1);
+        width: 200px;
+        height: 200px;
+        right: 38%;
+    }
+    
+    100% {
+        transform: scale(1);
+        width: 200px;
+        height: 200px;
+        right: 200%;
+    }
+    
+    
+    
+}
+
+

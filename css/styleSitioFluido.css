@@ -1,0 +1,79 @@
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.main {
+    width: 100%;
+    float: left;
+    font-size:1.0em;
+}
+
+.ind {
+    width: 30%;
+    float: left;
+    
+    margin: 1%;
+    display: inline-block;
+    
+   
+}
+
+.dob {
+    width: 62%;
+    float: left;
+    
+    margin: 1%;
+    display: inline-block;
+    
+}
+
+.azul{
+    background-color: blue;
+}
+.gris{
+    background-color: grey;
+}
+
+.naranja {
+    background-color: orange;
+}
+
+@media screen and (max-width:959px) {
+  /* For tablets: */
+  .dob{
+    width:93%;
+      font-size:120%;
+  }
+     
+    .ind{
+        width: 30%;
+        font-size: 120%;
+    }
+}
+
+@media screen and (max-width:480px) {
+  /* For mobile phones: */
+  .dob, .ind {
+      font-size: 300%;
+    width:100%;
+  }
+    
+   }
+
+
+/*    .titulo{
+        font-size: 1.5em;
+        
+    }
+    
+    .medio{
+        font-size: 1.0em;
+    }
+    
+    .pequeno{
+        font-size: 0.8em;
+        
+    }
+*/
