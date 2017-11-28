@@ -44,36 +44,54 @@
   /* For tablets: */
   .dob{
     width:93%;
-      font-size:120%;
+      
   }
-     
-    .ind{
+      .ind{
         width: 30%;
-        font-size: 120%;
+        
     }
+    
+    .titulo{
+        font-size: 2em;
+        
+    }
+    
+    .medio{
+        font-size: 1.5em;
+    }
+    
+    .pequeno{
+        font-size: 2em;
+        
+    }
+    
+    
 }
 
 @media screen and (max-width:480px) {
   /* For mobile phones: */
   .dob, .ind {
-      font-size: 300%;
+    
     width:100%;
   }
     
-   }
-
-
-/*    .titulo{
-        font-size: 1.5em;
+    .titulo{
+        font-size: 5em;
         
     }
     
     .medio{
-        font-size: 1.0em;
+        font-size: 2.5em;
     }
     
     .pequeno{
-        font-size: 0.8em;
+        font-size: 3em;
         
-    }
-*/
+    } 
+    
+    
+   }
+
+
+
+
