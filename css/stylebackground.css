@@ -1,0 +1,77 @@
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.text {
+    width: 100%;
+    float: left;
+    font-size: 20px;
+}
+
+.ej1{
+    width: 100%;
+    height: 200px;
+    float: left;
+    background: url(../img/atat.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    padding: 25px;
+}
+
+.ej2{
+    width: 100%;
+    float: left;
+    height: 200px;
+    background: url(../img/atat.jpg);
+    background-size: 500px 70px;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    padding: 25px;
+}
+
+.ej3{
+    width: 100%;
+    float: left;
+    height: 200px;
+    background: url(../img/atat.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    padding: 25px;
+}
+
+.ej4{
+    width: 100%;
+    float: left;
+    height: 400px;
+    background: url(../img/atat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    padding: 25px;
+}
+
+.ej5{
+    width: 100%;
+    float: left;
+    height: 200px;
+    background: url(../img/atat.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    padding: 25px;
+}
+
+.ej6{
+    width: 100%;
+    float: left;
+    height: 200px;
+    background: url(../img/atat.jpg);
+    background-size: initial;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    padding: 25px;
+}
